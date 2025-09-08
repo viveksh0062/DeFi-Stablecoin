@@ -13,26 +13,37 @@ This project demonstrates how a stable, collateral-backed currency can be create
 
 │ └── HelperConfig.s.sol # Config helper for deployment
 │
+
 ├── src
 
 │ ├── DecentralizedStableCoin.sol # ERC20 Stablecoin implementation
 
 │ ├── DSCEngine.sol # Core engine for collateral & stability logic
+
 │ └── libraries/
+
 │ └── OracleLib.sol # Price feed library with safety checks
 │
 ├── test
+
 │ ├── fuzz/
+
 │ │ ├── continueOnRevert.t.sol # Fuzzing test (continue on revert)
+
 │ │ ├── failOnRevert.t.sol # Fuzzing test (fail on revert)
+
 │ │ ├── Handler.t.sol # Handler contract for fuzz/invariants
+
 │ │ ├── Invariants.t.sol # Invariant testing
+
 │ │ └── OpenInvariantsTest.t.sol # Open invariant checks
 │ │
 │ ├── mocks/
+
 │ │ └── MockV3Aggregator.sol # Mock Chainlink price feed
 │ │
 │ └── unit/
+
 │ └── DSCEngineTest.t.sol # Unit tests for DSCEngine
 │
 └── foundry.toml
