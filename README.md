@@ -33,10 +33,6 @@ This project demonstrates how a stable, collateral-backed currency can be create
 │
 └── foundry.toml
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Features
@@ -54,8 +50,8 @@ Edit
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/viveksh0062/DeFi-Stablecoin.git
+   cd DeFi-StableCoin
 Install dependencies:
 
 bash
