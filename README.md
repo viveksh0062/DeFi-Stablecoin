@@ -37,15 +37,21 @@ This project demonstrates how a stable, collateral-backed currency can be create
 │ │ ├── Invariants.t.sol # Invariant testing
 
 │ │ └── OpenInvariantsTest.t.sol # Open invariant checks
+
 │ │
+
 │ ├── mocks/
 
 │ │ └── MockV3Aggregator.sol # Mock Chainlink price feed
+
 │ │
+
 │ └── unit/
 
 │ └── DSCEngineTest.t.sol # Unit tests for DSCEngine
+
 │
+
 └── foundry.toml
 
 ---
