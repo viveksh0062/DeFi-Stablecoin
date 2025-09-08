@@ -8,11 +8,15 @@ This project demonstrates how a stable, collateral-backed currency can be create
 ## 📂 Project Structure
 
 ├── script
+
 │ ├── DeployDSC.s.sol # Deployment script
+
 │ └── HelperConfig.s.sol # Config helper for deployment
 │
 ├── src
+
 │ ├── DecentralizedStableCoin.sol # ERC20 Stablecoin implementation
+
 │ ├── DSCEngine.sol # Core engine for collateral & stability logic
 │ └── libraries/
 │ └── OracleLib.sol # Price feed library with safety checks
@@ -81,9 +85,10 @@ Fuzz Tests (/test/fuzz) – Randomized input testing to detect unexpected behavi
 Invariant Tests (/test/fuzz/Invariants.t.sol) – Guarantee critical properties always hold.
 
 🔗 Connect with Me
-🐦 Twitter/X: @viveksh0062
 
-💼 LinkedIn: Vivek Sharma
+🐦 Twitter/X: https://x.com/viveksh0062
+
+💼 LinkedIn: https://www.linkedin.com/in/vivek-sharma-679606360/
 
 ⭐ Acknowledgements
 Inspired by MakerDAO DAI and learning resources from Patrick Collins / Cyfrin.
